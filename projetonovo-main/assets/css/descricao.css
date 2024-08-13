@@ -6,14 +6,12 @@
     background-color: #f9f9f9;
   }
   
-  /* Estilo para a imagem do produto */
   #product-details img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
   }
   
-  /* Estilo para a seção de informações do produto */
   #product-details .product-info {
     padding: 20px;
   }
