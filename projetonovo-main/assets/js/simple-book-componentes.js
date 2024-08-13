@@ -3,7 +3,6 @@ class SimpleBookComponent extends HTMLElement {
       super();
       const shadow = this.attachShadow({ mode: 'open' });
   
-      // Styles
       const style = document.createElement('style');
       style.textContent = `
         .book-container {
@@ -47,36 +46,30 @@ class SimpleBookComponent extends HTMLElement {
       `;
       shadow.appendChild(style);
   
-      // Container
       const container = document.createElement('div');
       container.classList.add('book-container');
-  
-      // Image
+
       const img = document.createElement('img');
       img.classList.add('book-img');
       img.src = this.getAttribute('image') || '';
       img.alt = this.getAttribute('title') || 'Book Image';
       container.appendChild(img);
   
-      // Title
       const title = document.createElement('div');
       title.classList.add('book-title');
       title.textContent = this.getAttribute('title') || 'Title';
       container.appendChild(title);
   
-      // Author
       const author = document.createElement('div');
       author.classList.add('book-author');
       author.textContent = this.getAttribute('author') || 'Author';
       container.appendChild(author);
   
-      // Price
       const price = document.createElement('div');
       price.classList.add('book-price');
       price.textContent = this.getAttribute('price') || 'Price';
       container.appendChild(price);
   
-      // Buy Button
       const buyBtn = document.createElement('button');
       buyBtn.classList.add('buy-btn');
       buyBtn.textContent = 'Comprar';
@@ -85,7 +78,6 @@ class SimpleBookComponent extends HTMLElement {
       });
       container.appendChild(buyBtn);
   
-      // Add to Cart Button
       const cartBtn = document.createElement('button');
       cartBtn.classList.add('cart-btn');
       cartBtn.textContent = 'Adicionar ao Carrinho';
