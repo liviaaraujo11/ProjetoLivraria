@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Livraria Destóievski: Produtos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/js/simple-book-componentes.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark " style="height: 60px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="paginainicial.html">
+                <img id="id-navbar" class="logonavbar" style="width: 200px; height: auto;"
+                    src="imagens/logooriginal.png">
+            </a>
+
+            <!-- botton para dispositivos moveis-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <!-- Itens de navegação -->
+                    <form class="d-flex justify-content-center" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar produto..."
+                            aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </ul>
+                <!-- Botões de Login e Carrinho de Compras -->
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="login.1.html" class="nav-link btn btn-light"><i class="bi bi-person"></i> Login </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="carinho.html" class="nav-link btn btn-light"><i class="bi bi-cart"></i> Carrinho</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark " style="background-color: black;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="produtos.html">Desenvolvimento pessoal</a></li>
+                            <li><a class="dropdown-item" href="produtos.html">Pscologia</a></li>
+                            <li><a class="dropdown-item" href="produtos.html">Religião</a></li>
+                            <li><a class="dropdown-item" href="produtos.html">Artes</a></li>
+                            <li><a class="dropdown-item" href="produtos.html">Literatura</a></li>
+                            <li><a class="dropdown-item" href="produtos.html">Educação</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="produtos.html">Todos os produtos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="paginainicial.html">Mais vendidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="paginainicial.html">Autores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="conta.html"><i class="bi bi-person-fill-add"></i>Criar conta</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-3" style="background-color: #111;">
+            <div class="sidebar">
+                <h5> FILTRO</h5>
+                <h5> Envio</h5>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Nacional
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Internacional
+                </label>
+                <h5> Categorias</h5>
+                <label>
+                    <input type="checkbox" id="option1" checked>
+                    Desenvolvimento pessoal
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Literatura internacional
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Literatura nacional
+                </label>
+                <label>
+                    <input type="checkbox" id="option3">
+                    Tudo de F. Destoiévski
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Educação
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Pscologia
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Religião
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Literatura infantil
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Administração
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Política
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Filosofia
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Artes
+                </label>
+
+                <h5> Tradução </h5>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Português
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Inglês
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Francês
+                </label>
+                <label>
+                    <input type="checkbox" id="option2">
+                    Espanhol
+                </label>
+            </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <simple-book-component
+                    title="Ortodoxia"
+                    author="G.K Chesterton"
+                    price="R$ 39,90"
+                    image="imagens/livro1.png"
+                    buy-link="descricao.html">
+                </simple-book-component>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-column h5 {
+    margin-bottom: 15px;
+}
+
+.newsletter-form {
+    max-width: 300px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group-append {
+    display: flex;
+    align-items: center;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid gold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0 0 0;
+    width: 100%;
+}
+
+.h4 {
+    color: #fff;
+}
+
+.payment-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card {
+    width: 160px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.product-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.product-img-margin {
+    margin-right: 0;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 200px;
+    padding-top: 100px;
+    color: white;
+}
+
+.sidebar label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.sidebar input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid gold;
+}
+
+
+.cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-summary {
+    margin-top: 20px;
+}
+
+
+
+/* Cards */
+
+.product-card {
+    margin: auto;
+    width: 200px;
+}
+  
+.product-img-margin {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.btn-card{
+    display: block;
+}
