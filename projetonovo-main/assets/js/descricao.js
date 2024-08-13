@@ -1,4 +1,4 @@
-// Função para capturar o ID do produto da URL
+
 function getProductIdFromURL() {
     const params = new URLSearchParams(window.location.search);
     return params.get('id');
